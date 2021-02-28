@@ -12,7 +12,9 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     // these rules will also be used to auto-fix linting problems on save in VS Code
+    "comma-dangle": ["warn", "never"],
     "no-trailing-spaces": ["warn"],
-    "quotes": ["warn", "double"]
+    "quotes": ["warn", "double"],
+    "semi": ["error", "always"]
   }
 }
